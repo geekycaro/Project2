@@ -1,0 +1,446 @@
+@import url("https://fonts.googleapis.com/css?family=Assistant&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+
+
+*{
+    font-family: 'Assistant', sans-serif;
+}
+
+
+h1, h2{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+h2{
+    padding: 25px;
+}
+
+.tx2{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #FBC740! important;
+    width: 100%;
+    height: 200px;  
+    margin: 0 auto;
+    text-align: left;
+}
+
+.logo{
+    padding: 10px;
+    width: 55%;
+}
+
+.navbar-nav{
+    list-style-type: none;
+    float: right;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: 10px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav-item{
+    /* padding: 5px; */
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Assistant', sans-serif;
+}
+
+.nav-item a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    background-color: #A91B60;
+    transition: 0.8s;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.jumbotron{
+    background-image: url(img/happykids.jpeg);
+    background-size: cover;
+    height: 400px;
+}
+
+/* ul{
+    list-style-type: none;
+    width: 100%; */
+    /* margin-right: 20px; */
+    /* margin-top: 50px; */
+    
+    
+/* }
+
+
+li{
+    float: left; 
+    padding: 10px;
+   }
+
+li a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #A91B60!important;
+    transition: 0.8s;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+} */
+
+
+
+/* .logo{ 
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.logo img{
+    height: 95px;
+    padding: 5px;
+    
+} 
+
+
+
+.jumbotron{
+    background-image: url(img/happykids.jpeg);
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    color: #821D30;
+    padding: 100px;
+}
+
+/* .lead{
+    border-radius: 5px;
+    background-color: teal;    
+} */
+
+.tx{
+    opacity: 1;
+}
+
+.btn{
+    background-color: #FBC740; 
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+.btn:hover{
+    background-color: #FF6501;
+    font-family: 'Assistant', sans-serif;
+}
+
+.box{
+    /* padding: 10px; */
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.image1{
+    float: right;
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-right: 75px;
+    margin-left: 50px;
+}
+
+.tx1{
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.button{
+    width: 500px;
+    transition-duration: 8s;
+    background-color: #FF6501; 
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    border-radius: 25px;
+    color: #FFFFFF;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.box2{
+    background-image: url(img/juice.jpeg);
+    background-size: cover;
+    margin-top: 350px;
+    height: 700px;
+}
+
+.button1{
+    width: 500px;
+    transition-duration: 8s;
+    background-color: #FF6501; 
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    border-radius: 25px;
+    color: #FFFFFF;
+    margin-left: 65px;
+    padding: 10px;
+}
+
+.tx3{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.tx4{
+    margin-right: 100px;
+}
+
+.image2{
+    margin-left: 100px;
+    float: left;
+    margin-right: 75px;
+}
+
+.button2{
+    width: 500px;
+    transition-duration: 8s;
+    background-color: #FF6501; 
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    border-radius: 25px;
+    color: #FFFFFF;
+    /* margin-left: 65px; */
+    padding: 10px;
+}
+
+.foot{
+    background-image: url(img/wood.jpeg);
+    margin-top: 150px;
+    height: 200px;
+}
+
+.tx5{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 100px;
+}
+
+.cont{
+    background-image: url(img/allfruits.jpeg);
+    background-size: cover;
+    padding: 180px;
+}
+
+.image3{
+    width: 800px;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 40px;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    float: left;
+}
+
+.tx7{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #FFFFFF;
+}
+
+.tx8{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #FFFFFF;
+}
+
+.front{
+    background-color: #821D30;
+    padding: 100px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.foot1{
+    background-image: url(img/wood.jpeg);
+    margin-top: 200px;
+    height: 200px;
+}
+
+.hd3{
+    font-family: 'Fredoka One', cursive;
+    margin-right: 100px; 
+    margin-top: 100px;
+}
+
+h3{
+    font-family: 'Fredoka One', cursive;
+    margin-right: 100px; 
+    margin-top: 50px;
+}
+
+.list{
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+    margin-right: 400px;
+}
+
+.map{
+    padding: 100px;
+    float: left;
+    margin-left: 150px;
+}
+
+.contact{
+    margin-top: 200px;
+}
+
+.formform{
+    padding: 50px;
+    background-color: #B5B3CA;
+    
+    margin-top: 200px;
+    height: 1200px;
+}
+
+form{
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+/* .form-control{
+    border-radius: 5px;
+    
+}
+
+.form-check{
+    margin-top: 15px;
+}
+
+.pd{
+    margin-left: 50px;
+}
+
+
+.ln{
+    margin-left: 10px;
+}
+
+.em{
+    margin-left: 30px;
+} */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 20%;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  .container {
+    padding: 55px;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+.foot3{
+    background-image: url(img/wood.jpeg);
+    
+    height: 200px;
+}
+
+@media screen and (max-width:370px){
+    .display-1{
+        font-size: 70px;
+    }
+}
