@@ -83,6 +83,7 @@ h2{
     background-image: url(img/happykids.jpeg);
     background-size: cover;
     height: 400px;
+    color: brown;
 }
 
 /* ul{
@@ -192,6 +193,11 @@ li a:hover{
     margin-right: 150px;
 }
 
+.tx2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .button{
     width: 500px;
     transition-duration: 8s;
@@ -211,6 +217,10 @@ li a:hover{
     height: 700px;
 }
 
+.box3{
+    padding: 50px;
+}
+
 .button1{
     width: 500px;
     transition-duration: 8s;
@@ -224,7 +234,7 @@ li a:hover{
 }
 
 .tx3{
-    margin-top: 100px;
+    margin-top: 70px;
     margin-right: 100px;
 }
 
